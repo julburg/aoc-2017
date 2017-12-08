@@ -4,7 +4,7 @@ import java.io.File
 
 fun main(args: Array<String>) {
 
-    val input = File("day5File").readText();
+    val input = File("inputDay5").readText();
     val result = input.split("\n").map(String::toInt).toIntArray()
 
 
