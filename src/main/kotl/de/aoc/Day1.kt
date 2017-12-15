@@ -1,5 +1,7 @@
 package de.aoc
 
+import kotl.de.aoc.findAll
+
 
 /**
  * @author  Julia Burgard - burgard@synyx.de
@@ -34,4 +36,3 @@ fun day1b(input: String): Int {
     return duplicatedNumbers.sum()
 }
 
-fun String.findAll(value: String) = value.toRegex().findAll(this);

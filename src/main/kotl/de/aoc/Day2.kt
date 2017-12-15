@@ -37,3 +37,4 @@ fun day2b(input: String): Int {
     return result.sum()
 
 }
+
